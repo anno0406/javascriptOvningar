@@ -28,3 +28,17 @@ p, ul{
     font-family: 'Arimo', sans-serif;
     font-size: 12px;
 }
+
+
+.stars span {
+      color: rgb(124, 94, 94);
+      user-select: none;
+      cursor: pointer;
+      font-size: 20px;
+    }
+    
+    
+    
+.stars .filled {
+      color: white;
+    }
