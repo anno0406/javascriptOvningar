@@ -1,0 +1,22 @@
+{
+  "name": "dag1projekt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anno0406/javascriptOvningar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anno0406/javascriptOvningar/issues"
+  },
+  "homepage": "https://github.com/anno0406/javascriptOvningar#readme",
+  "devDependencies": {
+    "less": "^2.7.3"
+  }
+}
