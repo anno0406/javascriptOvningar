@@ -9,7 +9,8 @@
     "copyindex": "cp template.html distribution/index.html",
     "lintless": "stylelint styles.less",
     "build": "npm run bundle && npm run styles && npm run copyindex",
-    "lintjs": "eslint ."
+    "lintjs": "eslint .",
+    "lint":"npm run lintless && npm run lintjs"
   },
   "repository": {
     "type": "git",
