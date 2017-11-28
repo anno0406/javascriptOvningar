@@ -1,4 +1,6 @@
+let $ = require("jquery");
 
+let movieData = require("./data");
 
 function renderMovie(movie) {
     $("#title").text(movie.title);
