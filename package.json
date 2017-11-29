@@ -7,10 +7,8 @@
     "styles": "lessc styles.less distribution/styles.css",
     "bundle": "webpack",
     "copyindex": "cp template.html distribution/index.html",
-    "lintless": "stylelint styles.less",
     "build": "npm run bundle && npm run styles && npm run copyindex",
-    "lintjs": "eslint .",
-    "lint":"npm run lintless && npm run lintjs"
+    "lintts": "tslint -c tslint.json '*.ts'"
   },
   "repository": {
     "type": "git",
@@ -25,6 +23,9 @@
   "devDependencies": {
     "less": "^2.7.3",
     "stylelint": "^8.3.1",
+    "ts-loader": "^3.1.1",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2",
     "webpack": "^3.8.1"
   },
   "dependencies": {

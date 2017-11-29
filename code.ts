@@ -1,11 +1,16 @@
+/* JQuery
+
 let $ = require("jquery");
 
-let movieData = require("./data");
+let movieData = require("./data");*/
+
+import {movieData} from "./data";
+import * as $ from "jquery";
 
 function renderMovie(movie) {
-    $("#title").text(movie.title);
-    $("#image").attr("src", movie.image);
-    $("#brodtxt").text(movie.brodtext);
+	$("#title").text(movie.title);
+	$("#image").attr("src", movie.image);
+	$("#brodtxt").text(movie.brodtext);
 
 
     var fetstrang = "";
